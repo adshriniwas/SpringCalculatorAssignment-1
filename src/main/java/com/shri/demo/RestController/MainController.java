@@ -27,7 +27,7 @@ public class MainController {
 	}
 	@GetMapping("/remainder")
 	public String remainder() {
-		String str = "2 % 3 = "+ (2 & 3);
+		String str = "2 % 3 = "+ (2 % 3);
 		return str;
 	}
 }
